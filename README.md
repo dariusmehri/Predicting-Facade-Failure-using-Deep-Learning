@@ -42,3 +42,6 @@ The outcome variable is “unsafe” and is constructed from various DOB violati
 
 ![High Risk Example 3](https://user-images.githubusercontent.com/11237613/59791859-f6875e00-92a0-11e9-867e-9f8e05e6abc6.PNG)
 
+### Map
+![map](https://user-images.githubusercontent.com/11237613/59791981-3a7a6300-92a1-11e9-90d9-7dd1fd2e8dd1.PNG)
+
