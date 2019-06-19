@@ -1,4 +1,4 @@
-# Predicting Facade Failure with Deep Learning
+# Predicting Facade Risk with Deep Learning
 
 The objective of this project is to create a risk probability rating for all buildings in the Façade Inspection Safety Program at the DOB. The results will be used to better inform proactive enforcement actions for high-risk facades. A façade is considered high risk when it is likely to fail causing property damage, injury or death.
 
