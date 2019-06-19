@@ -4,7 +4,7 @@ The objective of this project is to create a risk probability rating for all bui
 
 The outcome variable is “unsafe” and is constructed from various DOB violation datasets. The predictors (independent variables) incorporate both behavioral and physical building characteristics. Behavioral predictors include building owner, façade inspectors and ownership type. Building characteristics include age, number of stories, square footage and building type. 
 
-Deep Learning Algorithm
+### Deep Learning Algorithm
 
 •	To obtain optimal results, the data should be of the same type. All variables were therefore converted into categories and then into dummy variables.
 
@@ -16,13 +16,13 @@ Deep Learning Algorithm
 
 •	Using the final model, a probability of high risk was assigned to each building in the façade compliance universe.
 
-Results
+### Results
 
 •	There were 4515 total predicted high-risk facades
 
 •	The model predicted 2155 additional high-risk facades that are not part of the known high-risk universe
 
-The below independent variables were considered to be highly correlated with a high-risk façade:
+### The below independent variables were considered to be highly correlated with a high-risk façade:
 
 •	Ownership type = City Owned
 
