@@ -22,7 +22,7 @@ The outcome variable is “unsafe” and is constructed from various DOB violati
 
 •	The model predicted 2155 additional high-risk facades that are not part of the known high-risk universe
 
-### The below independent variables were considered to be highly correlated with a high-risk façade:
+### Independent variables considered to be highly correlated with a high-risk façade:
 
 •	Ownership type = City Owned
 
