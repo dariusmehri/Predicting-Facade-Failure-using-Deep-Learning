@@ -8,7 +8,7 @@ Deep Learning Algorithm
 
 •	To obtain optimal results, the data should be of the same type. All variables were therefore converted into categories and then into dummy variables.
 
-•	The data was partitioned into training, validation and holdout datasets.\n
+•	The data was partitioned into training, validation and holdout datasets.
 
 •	Hyper-parameter tuning was used on the training and validation datasets to optimize model performance.
 
@@ -17,12 +17,19 @@ Deep Learning Algorithm
 •	Using the final model, a probability of high risk was assigned to each building in the façade compliance universe.
 
 Results
+
 •	There were 4515 total predicted high-risk facades
+
 •	The model predicted 2155 additional high-risk facades that are not part of the known high-risk universe
 
 The below independent variables were considered to be highly correlated with a high-risk façade:
+
 •	Ownership type = City Owned
+
 •	Building Owner = Fred Camerata, Jacob Weinreb, etc.
+
 •	Year Built = 1916 – 1937
+
 •	Building Area = 250,000 to 1,000,000 square feet
+
 •	Community Board = CB 103, CB 111, CB 107
