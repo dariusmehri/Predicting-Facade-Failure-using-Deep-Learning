@@ -1,0 +1,48 @@
+Model,Parameters,Training Score,Test Score,Precision,Recall,F1,AUC
+Random Forest,"Param: Param: (default,default)",0.94,0.84,0.8,0.91,0.85,0.92
+Random Forest,"Param: Param: (max features:19,max depth:10)",0.69,0.68,0.77,0.52,0.62,0.75
+Random Forest,"Param: Param: (max features:19,max depth:12)",0.7,0.69,0.76,0.55,0.64,0.77
+Random Forest,"Param: Param: (max features:19,max depth:14)",0.71,0.7,0.79,0.55,0.65,0.78
+Random Forest,"Param: Param: (max features:19,max depth:16)",0.74,0.71,0.78,0.58,0.67,0.8
+Random Forest,"Param: Param: (max features:19,max depth:18)",0.76,0.73,0.78,0.63,0.7,0.81
+Gradient Boosted Dec Trees,"Param: Param: (default,default)",0.69,0.68,0.8,0.49,0.6,0.76
+Gradient Boosted Dec Trees,"Param: Param: (learning rate:0.01,maximum depth:2)",0.64,0.65,0.85,0.37,0.52,0.7
+Gradient Boosted Dec Trees,"Param: Param: (learning rate:0.01,maximum depth:4)",0.66,0.66,0.82,0.41,0.55,0.73
+Gradient Boosted Dec Trees,"Param: Param: (learning rate:0.01,maximum depth:6)",0.67,0.67,0.81,0.44,0.57,0.74
+Gradient Boosted Dec Trees,"Param: Param: (learning rate:0.1,maximum depth:2)",0.66,0.67,0.8,0.44,0.57,0.75
+Gradient Boosted Dec Trees,"Param: Param: (learning rate:0.1,maximum depth:4)",0.7,0.69,0.79,0.53,0.63,0.78
+Gradient Boosted Dec Trees,"Param: Param: (learning rate:0.1,maximum depth:6)",0.75,0.72,0.79,0.6,0.68,0.8
+Gradient Boosted Dec Trees,"Param: Param: (learning rate:1,maximum depth:2)",0.72,0.7,0.72,0.64,0.68,0.77
+Gradient Boosted Dec Trees,"Param: Param: (learning rate:1,maximum depth:4)",0.8,0.75,0.76,0.73,0.74,0.83
+Gradient Boosted Dec Trees,"Param: Param: (learning rate:1,maximum depth:6)",0.88,0.8,0.79,0.83,0.81,0.88
+Logistic Regression,"Param: Param: (default,default)",0.7,0.69,0.71,0.63,0.67,0.76
+Logistic Regression,"Param: Param: (C reg param:0.1,none)",0.69,0.69,0.73,0.6,0.65,0.75
+Logistic Regression,"Param: Param: (C reg param:1,none)",0.7,0.69,0.71,0.63,0.67,0.76
+Logistic Regression,"Param: Param: (C reg param:100,none)",0.7,0.69,0.7,0.65,0.67,0.75
+Naive Bayes,"Param: Param: (default,default)",0.56,0.55,0.52,0.96,0.68,0.56
+Neural Networks,"Param: Param: (10,1000)",0.85,0.78,0.76,0.81,0.79,0.85
+Neural Networks,"Param: Param: (20,1000)",0.89,0.8,0.76,0.88,0.82,0.88
+Neural Networks,"Param: Param: (30,1000)",0.91,0.81,0.78,0.87,0.82,0.88
+Neural Networks,"Param: Param: (40,1000)",0.93,0.84,0.8,0.9,0.85,0.9
+Neural Networks,"Param: Param: (50,1000)",0.93,0.84,0.8,0.91,0.85,0.9
+Neural Networks,"Param: Param: (60,1000)",0.93,0.85,0.82,0.88,0.85,0.91
+Neural Networks,"Param: Param: (70,1000)",0.94,0.85,0.81,0.9,0.86,0.91
+Neural Networks,"Param: Param: (80,1000)",0.94,0.84,0.81,0.9,0.85,0.91
+Neural Networks,"Param: Param: (90,1000)",0.93,0.85,0.82,0.9,0.86,0.91
+Neural Networks,"Param: Param: (100,1000)",0.94,0.85,0.82,0.9,0.85,0.92
+Neural Networks,"Param: Param: (150,1000)",0.94,0.85,0.82,0.89,0.85,0.92
+Neural Networks,"Param: Param: (200,1000)",0.94,0.85,0.82,0.91,0.86,0.92
+Neural Networks,"Param: Param: ((10, 10),1000)",0.86,0.79,0.77,0.82,0.8,0.85
+Neural Networks,"Param: Param: ((20, 20),1000)",0.91,0.81,0.77,0.89,0.83,0.88
+Neural Networks,"Param: Param: ((30, 30),1000)",0.92,0.84,0.81,0.89,0.85,0.9
+Neural Networks,"Param: Param: ((40, 40),1000)",0.93,0.83,0.79,0.9,0.84,0.9
+Neural Networks,"Param: Param: ((50, 50),1000)",0.94,0.85,0.82,0.9,0.85,0.91
+Neural Networks,"Param: Param: ((60, 60),1000)",0.93,0.84,0.8,0.92,0.85,0.9
+Neural Networks,"Param: Param: ((70, 70),1000)",0.94,0.84,0.79,0.93,0.85,0.91
+Neural Networks,"Param: Param: ((10, 10, 10),1000)",0.87,0.79,0.79,0.8,0.79,0.86
+Neural Networks,"Param: Param: ((20, 20, 20),1000)",0.91,0.81,0.79,0.84,0.82,0.87
+Neural Networks,"Param: Param: ((30, 30, 30),1000)",0.93,0.84,0.8,0.9,0.85,0.9
+Neural Networks,"Param: Param: ((40, 40, 40),1000)",0.94,0.84,0.8,0.9,0.85,0.9
+Neural Networks,"Param: Param: ((50, 50, 50),1000)",0.93,0.83,0.78,0.93,0.85,0.9
+Neural Networks,"Param: Param: ((60, 60, 60),1000)",0.93,0.84,0.78,0.95,0.86,0.91
+Neural Networks,"Param: Param: ((70, 70, 70),1000)",0.94,0.85,0.8,0.91,0.85,0.91
